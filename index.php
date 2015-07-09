@@ -18,11 +18,11 @@
 <input type="button" class="save" value="Save" ng-click="view()">
 <div id="good">
 <p>Успех!</p> 
-<p>Html отправлен на почту.</p>
+<p>Html отправлен на сервер.</p>
 </div>
 <div id="bad">
 <p>Неудача!</p> 
-<p>Html не отправлен на почту.</p>
+<p>Html не отправлен на сервер.</p>
 </div>
 <ol class="num">
 <li>Введите HTML код</li>
