@@ -1,0 +1,122 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -240px;
+  margin-left: -322px;
+  background: #ebebeb;
+  font-family: Arial;
+  padding: 10px 20px 10px 20px;
+  width: 645px;
+  height: 480px;	
+}
+
+.editor{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+}
+
+textarea, .preview{
+  width: 615px;	
+  height: 80px;
+  font-size: 14px;
+  padding: 10px 15px 10px 15px;
+  margin: 10px 0px 10px 0px;
+}
+
+ol.num{
+	margin: 0px 0px 20px 20px;	
+}
+
+.preview{
+	height: 160px;
+	border: 1px solid black;
+	background: #FFFFFF;
+}
+
+.render,.save{
+  border: 0px;
+  border-radius: 3px;
+  background: #3498db;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 6px 10px 6px 10px;
+  position: absolute;
+  left: 545px;
+  top: 160px;
+  width: 120px;
+  height: 30px;
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+
+.save{
+	background: #e89c30;
+    left: 545px;
+	top: 205px;
+}
+
+
+
+#good{
+  display: none;
+  position: absolute;
+  left: 220px;
+  top: 160px;
+  background: #fcf8e3;
+  width: 215px;
+  height: 64px;	
+  color: #ceae76;
+}
+
+#good p:first-child{
+  position: absolute;
+  line-height: 130%;
+  left: 15px;
+  top: 12px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#good p:nth-child(2){
+  position: absolute;
+  line-height: 130%;
+  left: 15px;
+  top: 35px; 
+  font-size: 14px; 
+}
+
+#bad{
+  display: none;
+  position: absolute;
+  left: 220px;
+  top: 160px;
+  background: #FD686A;
+  width: 215px;
+  height: 64px; 
+  color: #ceae76;
+}
+
+#bad p:first-child{
+  position: absolute;
+  line-height: 130%;
+  left: 15px;
+  top: 12px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#bad p:nth-child(2){
+  position: absolute;
+  line-height: 130%;
+  left: 15px;
+  top: 35px; 
+  font-size: 14px; 
+}
