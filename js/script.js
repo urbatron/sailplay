@@ -1,6 +1,6 @@
 function ExampleCtrl($scope){
+empty = " "
 
-    empty = " "
 
     function get_cookie ( cookie_name ){
         var results = document.cookie.match ( '(^|;) ?' + cookie_name + '=([^;]*)(;|$)' );
