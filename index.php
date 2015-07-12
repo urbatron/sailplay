@@ -12,25 +12,24 @@
 </head>
 <body>
 <div class="wrapper"   ng-controller="ExampleCtrl">
-<p class="editor"><span>Editor</span></p>
-<textarea ng-model="name" name="name" ng-click="hide()"></textarea>
-<input type="button" class="render" value="Render" ng-click="hide()">
-<input type="button" class="save" value="Save" ng-click="view()">
-<div id="good">
-<p>Успех!</p> 
-<p>Html отправлен на почту.</p>
-</div>
-<div id="bad">
-<p>Неудача!</p> 
-<p>Html не отправлен на почту.</p>
-</div>
-<ol class="num">
-<li>Введите HTML код</li>
-<li>Нажмите Render</li>
-</ol>
-<p class="editor"><span>Preview</span></p>
-<div class="preview" ng-bind-html-unsafe="html"></div>
-<p id="response"></p>
+	<p class="editor"><span>Editor</span></p>
+	<textarea ng-model="name" name="name" ng-click="hide()"></textarea>
+	<input type="button" class="render" value="Render" ng-click="hide()">
+	<input type="button" class="save" value="Save" ng-click="view()">
+	<div id="good">
+		<p>Успех!</p> 
+		<p>Html отправлен на сервер.</p>
+	</div>
+	<div id="bad">
+		<p>Неудача!</p> 
+		<p>Html не отправлен на сервер.</p>
+	</div>
+	<ol class="num">
+		<li>Введите HTML код</li>
+		<li>Нажмите Render</li>
+	</ol>
+	<p class="editor"><span>Preview</span></p>
+	<iframe class="preview" src="view.html"></iframe>
 </div>
 
 </body>

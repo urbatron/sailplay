@@ -1,21 +1,18 @@
 <!doctype html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<title>Example - example-example62-production</title>
+<meta charset="utf-8">
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
 <script src="js/jquery.js"></script> 
 <script src="js/ajax.js"></script>
 <script src="js/script.js"></script> 
+ 
+<title>SailPlay</title>
 </head>
-<body>
+<body ng-app ng-controller="ExampleCtrl" >
 
-<div ng-controller="ExampleCtrl" ng-app>
-    
-        <div ng-bind-html-unsafe="name"></div>
-   
+<div ng-bind-html-unsafe="html"></div>
 
-</div>
 </body>
 </html>
