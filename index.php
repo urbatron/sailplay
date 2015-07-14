@@ -1,3 +1,8 @@
+<?php 
+if(file_exists('text.txt')){
+	file_put_contents('text.txt',"");
+}
+	?>
 <!doctype html>
 <html ng-app>
 <head>
@@ -29,7 +34,7 @@
 		<li>Нажмите Render</li>
 	</ol>
 	<p class="editor"><span>Preview</span></p>
-	<iframe class="preview" src="view.html"></iframe>
+	<iframe class="preview" src="view.php"></iframe>
 </div>
 
 </body>
